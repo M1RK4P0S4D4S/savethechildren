@@ -16,6 +16,15 @@
 .alert-hard{
     background-color: #F1F506 !important;
 }
+
+.bg-qs{
+background-color: #D44B46;
+}
+.bg-secondary-50{
+    background-color: #EFEFEF;
+}
+
+
 .footer h4{
  color:#C21707;
 }
