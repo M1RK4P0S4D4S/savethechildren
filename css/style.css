@@ -47,3 +47,19 @@
         border-left:1px solid black;
     }
  }
+
+@media only screen and (max-width: 1200px){
+    .f-border-lg{
+        border-left:1px solid black !important;
+    }
+}
+@media only screen and (max-width: 600px){
+	.f-border-lg{
+        border-left:1px solid black !important;
+    }
+}
+@media only screen and (max-width: 425px){
+	.f-border-sm{
+        border-left:1px solid black !important;
+    }
+}
