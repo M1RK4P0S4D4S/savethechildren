@@ -16,7 +16,9 @@
 .alert-hard{
     background-color: #F1F506;
 }
-
+.footer h4{
+ color:#C21707;
+}
 @media (min-width: 992px) {
     .f-border-lg{
         border-right: 1px solid #DC2C1C;  
