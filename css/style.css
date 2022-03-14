@@ -17,20 +17,14 @@
     background-color: #F1F506;
 }
 
-@media only screen and (max-width: 1200px){
+@media (min-width: 992px) {
     .f-border-lg{
-        border-left:1px solid black !important;
-        background-color: #DC2C1C !important;
-    }
+        border-right: 1px solid #DC2C1C;  
+        border-bottom: 0px solid #DC2C1C !important;    
+    } 
 }
-@media only screen and (max-width: 600px){
-	.f-border-lg{
-        border-left:1px solid black !important;
-        background-color: #DC2C1C !important;
-    }
-}
-@media only screen and (max-width: 425px){
-	.f-border-sm{
-        border-left:1px solid black !important;
-    }
+@media (min-width: 420px) {
+    .f-border-sm{
+        border-bottom: 1px solid #DC2C1C;    
+    } 
 }
